@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3A4D39;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #4F6F52;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.audio-section {
+    text-align: center;
+    
+}
+
+.content-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image-container {
+    flex: 1;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.lyrics-section {
+    flex: 1;
+    padding: 20px;
+    border-left: 2px solid #080404;
+}
+
+.lyrics-section h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #12372A;
+}
+
+.lyrics-section p {
+    line-height: 1.6;
+    color: #0e0505;
+
+    
+}
+.lyrics-section h4 {
+    color: #B2B377;
+}
+nav {
+    text-align: left;
+    padding-left: 20px;
+    
+  
+  max-width: 1000%;
+  height: 50px;
+  }
+  nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      margin-top: 20px;
+      
+  }
+  nav ul li {
+      display: inline;
+      margin-right: 20px;
+      
+  }
+  nav ul li:last-child {
+      margin-right: 0;
+  }
+  nav ul li a {
+      color: #f5f2f2;
+      text-decoration: none;
+      
+  }
+  nav a:hover {
+  background-color:gray;
+  
+  }
